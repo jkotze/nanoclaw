@@ -1,0 +1,25 @@
+src/container-runner.ts
+  09d05f2baeb1e16a 224-228
+container/agent-runner/src/index.ts
+  09d05f2baeb1e16a 395
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "1961268fad61be709b141c0078a9086540ff5b23",
+  "prompts": {
+    "09d05f2baeb1e16a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "84a102cd-2073-4db5-9d72-20051b9c8ced",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "jkotze <jacques.kotze@gmail.com>",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 0,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    }
+  }
+}
