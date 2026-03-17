@@ -221,6 +221,11 @@ function buildContainerArgs(
   // Pass host timezone so container's local time matches the user's
   args.push('-e', `TZ=${TIMEZONE}`);
 
+  // Pass CLAUDE_MODEL to container if set
+  if (process.env.CLAUDE_MODEL) {
+    args.push('-e', `CLAUDE_MODEL=${process.env.CLAUDE_MODEL}`);
+  }
+
   // Route API traffic through the credential proxy (containers never see real secrets)
   args.push(
     '-e',
