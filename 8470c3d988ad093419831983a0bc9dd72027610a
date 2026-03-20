@@ -1,0 +1,36 @@
+.github/workflows/fork-sync-skills.yml
+  e94bfcf932a781a2 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "8470c3d988ad093419831983a0bc9dd72027610a",
+  "prompts": {
+    "09d05f2baeb1e16a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "84a102cd-2073-4db5-9d72-20051b9c8ced",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "jkotze <jacques.kotze@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "e94bfcf932a781a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0bda070-c06c-44e3-bee8-2dcab9309cd7",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "jkotze <jacques.kotze@gmail.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
