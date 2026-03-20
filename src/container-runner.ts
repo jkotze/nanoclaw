@@ -7,6 +7,7 @@ import fs from 'fs';
 import path from 'path';
 
 import {
+  CLAUDE_MODEL,
   CONTAINER_IMAGE,
   CONTAINER_MAX_OUTPUT_SIZE,
   CONTAINER_TIMEOUT,
@@ -222,8 +223,8 @@ function buildContainerArgs(
   args.push('-e', `TZ=${TIMEZONE}`);
 
   // Pass CLAUDE_MODEL to container if set
-  if (process.env.CLAUDE_MODEL) {
-    args.push('-e', `CLAUDE_MODEL=${process.env.CLAUDE_MODEL}`);
+  if (CLAUDE_MODEL) {
+    args.push('-e', `CLAUDE_MODEL=${CLAUDE_MODEL}`);
   }
 
   // Route API traffic through the credential proxy (containers never see real secrets)
