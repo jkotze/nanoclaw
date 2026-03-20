@@ -1,0 +1,25 @@
+src/container-runner.ts
+  09d05f2baeb1e16a 10,226-227
+src/config.ts
+  09d05f2baeb1e16a 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "28356c6eb439ac8d718e0e67014aa124e4722b25",
+  "prompts": {
+    "09d05f2baeb1e16a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "84a102cd-2073-4db5-9d72-20051b9c8ced",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "jkotze <jacques.kotze@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
