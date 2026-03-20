@@ -6,7 +6,7 @@ on:
     types: [upstream-main-updated]
   # Fallback: run on a schedule in case dispatch isn't configured
   schedule:
-    - cron: '0 */6 * * *'  # every 6 hours
+    - cron: '0 0 * * 1'  # every Monday at midnight UTC
   # Also run when fork's main is pushed directly
   push:
     branches: [main]
